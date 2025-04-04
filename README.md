@@ -1,8 +1,5 @@
 # 🚗 Gestor de Piezas Automotrices - React Native
 
-![App Preview](https://i.imgur.com/XYZ1234.png)  
-*Captura de la interfaz principal - Diseño femenino pastel*
-
 ## 📌 Tabla de Contenidos
 - [Requisitos Técnicos](#-requisitos-técnicos)
 - [Instalación](#-instalación)
@@ -12,14 +9,14 @@
 - [Referencias](#-referencias)
 
 ## ⚙️ Requisitos Técnicos
-- Node.js v18+
+- Node.js 
 - Expo SDK 49
 - Dispositivo móvil o emulador (Android/iOS)
 
 ## 🛠️ Instalación
 ```bash
 # Clonar repositorio
-git clone https://github.com/tu-usuario/gestor-piezas.git
+git clone https://github.com/bmaravilla-hub/Desafio2DPS.git
 
 # Instalar dependencias
 npm install
