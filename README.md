@@ -3,10 +3,6 @@
 ## 📌 Tabla de Contenidos
 - [Requisitos Técnicos](#-requisitos-técnicos)
 - [Instalación](#-instalación)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Criterios Cumplidos](#-criterios-cumplidos)
-- [Defensa Técnica](#-defensa-técnica)
-- [Referencias](#-referencias)
 
 ## ⚙️ Requisitos Técnicos
 - Node.js 
