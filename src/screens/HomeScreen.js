@@ -8,7 +8,10 @@ import { partsData } from '../utils/data';
 import colors from '../utils/colors';
 
 /**
+<<<<<<< HEAD
  * Pantalla principal de la aplicación
+=======
+>>>>>>> 0862ebc76ca6bb6d9874b002ef81a3c156b413ed
  * Funcionalidades:
  * - Listado de piezas
  * - Botón flotante para agregar
@@ -31,6 +34,10 @@ const HomeScreen = () => {
     setParts(prevParts => prevParts.filter(part => part.id !== id));
   };
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0862ebc76ca6bb6d9874b002ef81a3c156b413ed
   return (
     <View style={styles.container}>
       <StatusBar backgroundColor={colors.primary} barStyle="light-content" />
@@ -41,7 +48,11 @@ const HomeScreen = () => {
         <Text style={styles.headerSubtitle}>{parts.length} registros</Text>
       </View>
 
+<<<<<<< HEAD
       {/* Listado de piezas o estado vacio */}
+=======
+      {/* Listado de piezas */}
+>>>>>>> 0862ebc76ca6bb6d9874b002ef81a3c156b413ed
       {parts.length === 0 ? (
         <View style={styles.emptyState}>
           <MaterialIcons name="handyman" size={50} color={colors.textSecondary} />
@@ -57,8 +68,13 @@ const HomeScreen = () => {
             <PartCard
               key={part.id}
               part={part}
+<<<<<<< HEAD
               onPress={() => setSelectedPart(part)} // CRITERIO 4: Abre modal al tocar
               onDelete={() => handleDeletePart(part.id)} // CRITERIO 3: Eliminación interactiva
+=======
+              onPress={() => setSelectedPart(part)}
+              onDelete={() => handleDeletePart(part.id)}
+>>>>>>> 0862ebc76ca6bb6d9874b002ef81a3c156b413ed
             />
           ))}
         </ScrollView>
@@ -97,6 +113,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.primary,
     paddingVertical: 20,
     paddingHorizontal: 16,
+<<<<<<< HEAD
     marginBottom: 10,
     borderBottomLeftRadius: 0,
     borderBottomRightRadius: 0,
@@ -129,6 +146,27 @@ const styles = StyleSheet.create({
   scrollContainer: {
     padding: 16,
     paddingBottom: 80,
+=======
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    marginBottom: 10,
+  },
+  headerTitle: {
+    fontSize: 24,
+    fontFamily: 'Lato-Bold',
+    color: colors.white,
+    marginBottom: 4,
+  },
+  headerSubtitle: {
+    fontSize: 14,
+    fontFamily: 'Lato-Regular',
+    color: colors.white,
+    opacity: 0.8,
+  },
+  scrollContainer: {
+    padding: 16,
+    paddingBottom: 80, 
+>>>>>>> 0862ebc76ca6bb6d9874b002ef81a3c156b413ed
   },
   emptyState: {
     flex: 1,
@@ -168,4 +206,8 @@ const styles = StyleSheet.create({
   },
 });
 
+<<<<<<< HEAD
 export default HomeScreen;
+=======
+export default HomeScreen;
+>>>>>>> 0862ebc76ca6bb6d9874b002ef81a3c156b413ed
