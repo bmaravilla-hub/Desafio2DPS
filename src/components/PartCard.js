@@ -4,10 +4,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 import colors from '../utils/colors';
 
 /**
-<<<<<<< HEAD
  * Componente PartCard para mostrar información de piezas de vehículo
-=======
->>>>>>> 0862ebc76ca6bb6d9874b002ef81a3c156b413ed
  * @param {Object} props - Props del componente
  * @param {Object} props.part - Datos de la pieza
  * @param {Function} props.onPress - Función al presionar la tarjeta
@@ -30,11 +27,7 @@ const PartCard = ({ part, onPress, onDelete }) => {
         },
         { 
           text: 'Eliminar', 
-<<<<<<< HEAD
           onPress: () => onDelete(part.id) 
-=======
-          onPress: () => onDelete(part.id) // Llama a la función padre
->>>>>>> 0862ebc76ca6bb6d9874b002ef81a3c156b413ed
         }
       ]
     );
@@ -47,19 +40,13 @@ const PartCard = ({ part, onPress, onDelete }) => {
       style={styles.card}
     >
       <View style={styles.content}>
-<<<<<<< HEAD
       {/* Información principal de la pieza */}
-=======
->>>>>>> 0862ebc76ca6bb6d9874b002ef81a3c156b413ed
         <View style={styles.textContainer}>
           <Text style={styles.type} numberOfLines={1}>{part.type}</Text>
           <Text style={styles.brand}>{part.brand}</Text>
         </View>
         <Text style={styles.date}>{part.date}</Text>
-<<<<<<< HEAD
         {/* Botón de eliminar*/}
-=======
->>>>>>> 0862ebc76ca6bb6d9874b002ef81a3c156b413ed
         <TouchableOpacity 
           onPress={handleDelete}
           style={styles.deleteButton}

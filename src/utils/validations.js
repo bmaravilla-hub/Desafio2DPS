@@ -33,16 +33,6 @@ export const validatePart = (part) => {
       errors.date = 'Fecha inválida';
     }
   
-<<<<<<< HEAD
-=======
-    // Rebe decide si dejar estas validaciones adicionales o nop
-    //Puedes agregar más tambien
-    // Validación para kilometraje
-    if (part.mileage && !/^\d{1,6}(,\d{3})?\s?km$/.test(part.mileage)) {
-      errors.mileage = 'Formato: "45,000 km"';
-    }
-  
->>>>>>> 0862ebc76ca6bb6d9874b002ef81a3c156b413ed
     // Validación para garantía
     if (part.warranty && !/^\d+\s(años|meses)$/.test(part.warranty)) {
       errors.warranty = 'Formato: "2 años" o "6 meses"';
